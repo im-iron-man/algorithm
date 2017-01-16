@@ -1,3 +1,4 @@
+#include <cstdlib>
 #include <iostream>
 #include <string>
 using namespace std;
@@ -49,6 +50,9 @@ template <typename Key, typename Value> class SequentialSearchST
 			for(Node *x = first; x != NULL; x = x->next)
 				if(key == x->key)
 					return x->val;
+			
+			cout << "There is no key " << key << "." << endl;
+			exit(-1);
 		}
 		
 		void del(Key key)
@@ -60,8 +64,12 @@ template <typename Key, typename Value> class SequentialSearchST
 					if(x->prev != NULL) x->prev->next = x->next;
 					if(x->next != NULL) x->next->prev = x->prev;
 					--N;
+					return;
 				}
-			}		
+			}
+			
+			cout << "There is no key " << key << "." << endl;
+			exit(-1);
 		}
 		
 		bool isEmpty()
@@ -78,8 +86,11 @@ int main()
 	st.put(2, "B");
 	st.put(3, "C");
 	st.del(2);
+	// st.del(4);
 	
 	cout << st.get(1) << endl;
 	cout << st.get(3) << endl;
+	// cout << st.get(2) << endl;
+	
 	return 0;
 }
