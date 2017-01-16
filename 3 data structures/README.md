@@ -2,7 +2,7 @@
 
 ## summary
 
-## api
+## API
 
 ### Stack
 
@@ -40,3 +40,5 @@ template <typename Key, typename Value> class SequentialSearchST
   bool isEmpty()     
   int size()
 ```
+
+## TODO
