@@ -87,3 +87,9 @@ class Select
   template <typename T, int N> T select(T (&a)[N], int index)
   template <typename T, int N> T selectMD(T (&a)[N], int index)
 ```
+
+## TODO
+
+- fill in the blank in summary
+- write code for chapter 8
+- visualize the process of program
