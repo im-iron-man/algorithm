@@ -23,7 +23,7 @@
 |select   |n^2       |n           |
 |selectMD |n         |n           |
 
-## api
+## API
 
 ### Sort
 
