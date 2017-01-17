@@ -82,15 +82,23 @@ template <typename Key, typename Value> class SequentialSearchST
 int main()
 {
 	SequentialSearchST<int, string> st;
-	st.put(1, "A");
-	st.put(2, "B");
-	st.put(3, "C");
-	st.del(2);
-	// st.del(4);
+	st.put(6, "A");
+	st.put(4, "B");
+	st.put(7, "C");
+	st.put(2, "D");
+	st.put(5, "E");
+	st.put(8, "F");
 	
-	cout << st.get(1) << endl;
-	cout << st.get(3) << endl;
-	// cout << st.get(2) << endl;
+	st.del(6);
+	st.del(4);
+	
+	cout << st.get(7) << endl;
+	cout << st.get(2) << endl;
+	cout << st.get(5) << endl;
+	cout << st.get(8) << endl;
+	
+	cout << st.isEmpty() << endl;
+	cout << st.size() << endl;
 	
 	return 0;
 }
