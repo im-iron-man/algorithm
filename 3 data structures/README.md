@@ -2,6 +2,25 @@
 
 ## summary
 
+### stack
+
+|Stack     |push|pop|
+|----------|----|---|
+|worst case|1   |1  |
+
+### queue
+
+|Queue     |enqueue|dequeue|
+|----------|-------|-------|
+|worst case|1      |1      |
+
+### sequential search symbol table
+
+|SequentialSearchST|put|get|del|
+|------------------|---|---|---|
+|worst case        |n  |n  |n  |
+|average case      |n  |n  |n  |
+
 ### binary search tree
 
 |BST         |put  |get  |del  |
@@ -62,3 +81,9 @@ template <typename Key, typename Value> class BST
 ```
 
 ## TODO
+
+- read section 3.2 in [Algorithm](https://book.douban.com/subject/10432347)
+  - add more features
+  - use recursive method to implement binary search tree 
+- add comments for code
+- visualize the process of program

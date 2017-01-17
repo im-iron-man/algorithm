@@ -47,6 +47,7 @@ template <typename Item> class Stack
 int main()
 {
 	Stack<int> stack;
+	
 	stack.push(1);
 	stack.push(2);
 	stack.push(3);
@@ -54,5 +55,6 @@ int main()
 	cout << stack.pop() << endl;
 	cout << stack.pop() << endl;
 	cout << stack.pop() << endl;
+	
 	return 0;
 }

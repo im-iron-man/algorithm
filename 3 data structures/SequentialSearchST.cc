@@ -82,6 +82,7 @@ template <typename Key, typename Value> class SequentialSearchST
 int main()
 {
 	SequentialSearchST<int, string> st;
+	
 	st.put(6, "A");
 	st.put(4, "B");
 	st.put(7, "C");

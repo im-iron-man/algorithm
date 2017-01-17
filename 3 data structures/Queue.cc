@@ -51,6 +51,7 @@ template <typename Item> class Queue
 int main()
 {
 	Queue<int> queue;
+	
 	queue.enqueue(1);
 	queue.enqueue(2);
 	queue.enqueue(3);
@@ -58,5 +59,6 @@ int main()
 	cout << queue.dequeue() << endl;
 	cout << queue.dequeue() << endl;
 	cout << queue.dequeue() << endl;
+	
 	return 0;
 }
