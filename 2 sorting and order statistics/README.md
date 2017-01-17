@@ -92,4 +92,5 @@ class Select
 
 - fill in the blank in summary
 - write code for chapter 8
+- add comments for code
 - visualize the process of program

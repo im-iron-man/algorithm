@@ -77,11 +77,9 @@ int main()
 	
 	MaxPQ<int, N> pq;
 	
-	// test insert
 	for(int i = 0; i < N; ++i)
 		pq.insert(a[i]);
 
-	// test delMax
 	for(int i = 0; i < N; ++i)
 		cout << pq.delMax() << " ";
 	

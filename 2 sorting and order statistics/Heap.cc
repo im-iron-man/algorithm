@@ -44,7 +44,6 @@ int main()
 {
 	Heap heap;
 	
-	// test heap sort
 	int a[] = {0, 5, 6, 4, 8, 9, 74, 65, 123, 94};
 	int N = sizeof(a)/sizeof(a[0]);
 	

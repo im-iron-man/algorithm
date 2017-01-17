@@ -58,7 +58,6 @@ int main()
 {
 	Sort sort;
 	
-	// test selection sort
 	int a[] = {0, 5, 6, 4, 8, 9, 74, 65, 123, 94};
 	int N = sizeof(a)/sizeof(a[0]);
 	
@@ -67,7 +66,6 @@ int main()
 		cout << a[i] << " ";
 	cout << endl;
 	
-	// test bubble sort
 	int b[] = {0, 5, 6, 4, 8, 9, 74, 65, 123, 94};
 	N = sizeof(b)/sizeof(b[0]);
 	
@@ -76,7 +74,6 @@ int main()
 		cout << b[i] << " ";
 	cout << endl;
 	
-	// test insert sort
 	int c[] = {0, 5, 6, 4, 8, 9, 74, 65, 123, 94};
 	N = sizeof(c)/sizeof(c[0]);
 	

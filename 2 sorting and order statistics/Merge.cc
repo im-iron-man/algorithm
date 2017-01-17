@@ -69,8 +69,10 @@ class Merge
 				for(int j = 0; j < N-i; j += 2*i)
 				{
 					int min = 2*i + j - 1;
+					
 					if(N-1 < min)
 						min = N-1;
+					
 					merge(a, j+1, i+j, min+1);
 				}
 			}
@@ -81,7 +83,6 @@ int main()
 {
 	Merge merge;
 	
-	// test merge sort
 	int a[] = {0, 5, 6, 4, 8, 9, 74, 65, 123, 94};
 	int N = sizeof(a)/sizeof(a[0]);
 	
@@ -90,7 +91,6 @@ int main()
 		cout << a[i] << " ";
 	cout << endl;
 	
-	// test buttom-up merge sort
 	int b[] = {0, 5, 6, 4, 8, 9, 74, 65, 123, 94};
 	N = sizeof(b)/sizeof(b[0]);
 	
