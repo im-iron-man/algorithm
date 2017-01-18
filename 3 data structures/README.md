@@ -87,6 +87,19 @@ template <typename Key, typename Value> class BST
   int size()
 ```
 
+### RBT
+
+```
+template <typename Key, typename Value> class RBT
+-------------------------------------------------------------------------
+  RBT()
+  void put(Key key, Value val)
+  Value get(Key key)
+  void del(Key key)
+  bool isEmpty()     
+  int size()
+```
+
 ## TODO
 
 - read section 3.2 in [Algorithm](https://book.douban.com/subject/10432347)
