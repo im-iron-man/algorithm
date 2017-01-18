@@ -28,6 +28,13 @@
 |worst case  |n    |n    |n    |
 |average case|lg(n)|lg(n)|lg(n)|
 
+### red-black tree
+
+|RBT         |put  |get  |del  |
+|------------|-----|-----|-----|
+|worst case  |lg(n)|lg(n)|lg(n)|
+|average case|lg(n)|lg(n)|lg(n)|
+
 ## API
 
 ### Stack
@@ -84,6 +91,9 @@ template <typename Key, typename Value> class BST
 
 - read section 3.2 in [Algorithm](https://book.douban.com/subject/10432347)
   - add more features
-  - use recursive method to implement binary search tree 
+  - use recursive method to implement binary search tree
+- read section 3.3 in [Algorithm](https://book.douban.com/subject/10432347)
+  - learn 2-3 search tree
+  - learn 1-1 correspondence between red-black tree and 2-3 search tree
 - add comments for code
 - visualize the process of program

@@ -93,13 +93,13 @@ int main()
 	st.del(6);
 	st.del(4);
 	
-	cout << st.get(7) << endl;
-	cout << st.get(2) << endl;
-	cout << st.get(5) << endl;
+	cout << st.get(7) << " ";
+	cout << st.get(2) << " ";
+	cout << st.get(5) << " ";
 	cout << st.get(8) << endl;
 	
-	cout << st.isEmpty() << endl;
-	cout << st.size() << endl;
+	cout << st.isEmpty() << " ";
+	cout << st.size()    << endl;
 	
 	return 0;
 }

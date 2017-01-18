@@ -76,7 +76,11 @@ template <typename Key, typename Value> class BST
 			if(x == NULL)         root     = z;
 			else if(key < x->key) x->left  = z;
 			else if(key > x->key) x->right = z;
-			else                  x->val   = val;
+			else                  
+			{
+				x->val   = val;
+				return;
+			}
 			
 			++N;
 		}
@@ -146,13 +150,13 @@ int main()
 	bst.del(6);
 	bst.del(4);
 	
-	cout << bst.get(7) << endl;
-	cout << bst.get(2) << endl;
-	cout << bst.get(5) << endl;
+	cout << bst.get(7) << " ";
+	cout << bst.get(2) << " ";
+	cout << bst.get(5) << " ";
 	cout << bst.get(8) << endl;
 	
-	cout << bst.isEmpty() << endl;
-	cout << bst.size() << endl;
+	cout << bst.isEmpty() << " ";
+	cout << bst.size()    << endl;
 
 	return 0;
 }

@@ -56,8 +56,11 @@ int main()
 	queue.enqueue(2);
 	queue.enqueue(3);
 	
-	cout << queue.dequeue() << endl;
-	cout << queue.dequeue() << endl;
+	cout << queue.isEmpty() << " ";
+	cout << queue.size()    << endl;
+	
+	cout << queue.dequeue() << " ";
+	cout << queue.dequeue() << " ";
 	cout << queue.dequeue() << endl;
 	
 	return 0;

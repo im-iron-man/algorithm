@@ -52,8 +52,11 @@ int main()
 	stack.push(2);
 	stack.push(3);
 	
-	cout << stack.pop() << endl;
-	cout << stack.pop() << endl;
+	cout << stack.isEmpty() << " ";
+	cout << stack.size()    << endl;
+	
+	cout << stack.pop() << " ";
+	cout << stack.pop() << " ";
 	cout << stack.pop() << endl;
 	
 	return 0;
