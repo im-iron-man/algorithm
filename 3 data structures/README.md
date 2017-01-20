@@ -102,6 +102,9 @@ template <typename Key, typename Value> class RBT
 
 ## TODO
 
+- read section 3.4 in [Algorithm](https://book.douban.com/subject/10432347)
+  - write code for chapter 11
+  - analyse the run time for hash table
 - read section 3.2 in [Algorithm](https://book.douban.com/subject/10432347)
   - add more features
   - use recursive method to implement binary search tree
