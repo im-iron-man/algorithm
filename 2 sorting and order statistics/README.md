@@ -4,15 +4,15 @@
 
 ### sort
 
-|algorithm|worst case|average case|extra space|stable|in place|
-|---------|----------|------------|-----------|------|--------|
-|select   |n^2       |n^2         |1          |no    |yes     |
-|bubble   |n^2       |n^2         |1          |yes   |yes     |
-|insert   |n^2       |n^2         |1          |yes   |yes     |
-|merge    |nlg(n)    |nlg(n)      |n          |yes   |no      |
-|mergeBU  |nlg(n)    |nlg(n)      |n          |yes   |no      |
-|heap     |nlg(n)    |            |1          |no    |yes     |
-|quick    |n^2       |nlg(n)      |           |no    |yes     |
+|algorithm|best case|worst case|average case|extra space|stable|in place|
+|---------|---------|----------|------------|-----------|------|--------|
+|select   |n^2      |n^2       |n^2         |1          |no    |yes     |
+|bubble   |n        |n^2       |n^2         |1          |yes   |yes     |
+|insert   |n        |n^2       |n^2         |1          |yes   |yes     |
+|merge    |nlg(n)   |nlg(n)    |nlg(n)      |n          |yes   |no      |
+|mergeBU  |nlg(n)   |nlg(n)    |nlg(n)      |n          |yes   |no      |
+|heap     |nlg(n)   |nlg(n)    |nlg(n)      |1          |no    |yes     |
+|quick    |nlg(n)   |n^2       |nlg(n)      |lg(n)      |no    |yes     |
 
 ### select
 
@@ -90,7 +90,6 @@ class Select
 
 ## TODO
 
-- fill in the blank in summary
 - write code for chapter 8
 - add comments for code
 - visualize the process of program
