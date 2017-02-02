@@ -4,7 +4,7 @@ using namespace std;
 class Quick
 {
 	private:
-		template <typename T, int N> int partition(T (&a)[N], int p, int r)
+		template <typename T, int N> T partition(T (&a)[N], int p, int r)
 		{
 			T key = a[r-1];
 			int index = p-2;
