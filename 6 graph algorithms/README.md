@@ -2,9 +2,9 @@
 
 ## summary
 
-|breath-first search|depth-first search|
-|-------------------|------------------|
-|V+E                |V+E               |
+|breath-first search|depth-first search|minimum spanning trees(Kruskal's algorithm)|minimum spanning trees(Prim's algorithm)|
+|-------------------|------------------|-------------------------------------------|----------------------------------------|
+|V+E                |V+E               |ElgV                                       |E+VlgV                                  |
 
 ## API
 
