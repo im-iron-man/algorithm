@@ -2,12 +2,15 @@
 
 ## summary
 
-|breath-first search|depth-first search|minimum spanning trees(Kruskal's algorithm)|minimum spanning trees(Prim's algorithm)|
-|-------------------|------------------|-------------------------------------------|----------------------------------------|
-|V+E                |V+E               |ElgV                                       |E+VlgV                                  |
-|single source(BFS) |single source(BF) |single source(DAG)                         |single source(Dijksta's algorithm)      |
-|V+E                |VE                |V+E                                        |V^2                                     |
-
+|breath-first search|depth-first search|minimum spanning trees(Kruskal)|minimum spanning trees(Prim)|
+|-------------------|------------------|-------------------------------|----------------------------|
+|V+E                |V+E               |ElgV                           |E+VlgV                      |
+|single source(BFS) |single source(BF) |single source(DAG)             |single source(Dijksta)      |
+|V+E                |VE                |V+E                            |V^2                         |
+|all-pairs(BF)      |all-pairs(Dijksta)|all-pairs(dynamic)             |all-pairs(FW)               |
+|V^2E               |V^3               |V^3lgV                         |V^3                         |
+|all-pairs(Johnson) |                  |                               |                            |
+|V^2lgV+VE          |                  |                               |                            |
 
 ## API
 
