@@ -5,7 +5,7 @@
 |breath-first search|depth-first search|minimum spanning trees(Kruskal's algorithm)|minimum spanning trees(Prim's algorithm)|
 |-------------------|------------------|-------------------------------------------|----------------------------------------|
 |V+E                |V+E               |ElgV                                       |E+VlgV                                  |
-
+|-------------------|------------------|-------------------------------------------|----------------------------------------|
 |single source(BFS) |single source(BF) |single source(DAG)                         |single source(Dijksta's algorithm)      |
 |-------------------|------------------|-------------------------------------------|----------------------------------------|
 |V+E                |VE                |V+E                                        |V^2                                     |
